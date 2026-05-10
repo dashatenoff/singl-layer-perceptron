@@ -123,15 +123,15 @@ L = -(y log(ŷ) + (1-y) log(1-ŷ))
 
 ## Изменение функции потерь
 
-```md
+
 ![Loss](images/loss.png)
-```
+
 
 ## Разделяющая граница
 
-```md
+
 ![Decision Boundary](images/boundary.png)
-```
+
 
 ---
 
@@ -228,9 +228,9 @@ L = -(y log(ŷ) + (1-y) log(1-ŷ))
 
 ### Разделяющая граница
 
-```md
+
 ![Linear Boundary](images/linear_boundary.png)
-```
+
 
 ### Вывод
 
@@ -249,9 +249,9 @@ L = -(y log(ŷ) + (1-y) log(1-ŷ))
 
 ### Разделяющая граница
 
-```md
+
 ![Circle Boundary](images/circle_boundary.png)
-```
+
 
 ### Вывод
 
@@ -319,9 +319,9 @@ L_reg = L + λ ||w||²
 
 ### ROC-кривая
 
-```md
+
 ![ROC Curve](images/roc_curve.png)
-```
+
 
 ---
 
@@ -393,31 +393,7 @@ Best CV Accuracy:
 
 5-fold cross-validation позволила более надёжно подобрать гиперпараметры модели и оценить устойчивость результатов.
 
----
 
-# Как добавить графики в README
-
-## 1. Создайте папку
-
-```text
-images
-```
-
-в корне проекта.
-
-## 2. Сохраните график
-
-```python
-plt.savefig("images/loss.png")
-```
-
-## 3. Добавьте изображение в README
-
-```md
-![Loss](images/loss.png)
-```
-
----
 
 # Запуск проекта
 
